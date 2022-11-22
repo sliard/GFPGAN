@@ -1,0 +1,25 @@
+name: gfp
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - cudatoolkit=11.3
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - numpy=1.19.2
+  - pip:
+      - basicsr>=1.4.2
+      - facexlib>=0.2.5
+      - lmdb
+      - numpy
+      - opencv-python
+      - pyyaml
+      - scipy
+      - tb-nightly
+      - torch>=1.7
+      - torchvision
+      - tqdm
+      - yapf
+      - -e git+https://github.com/huggingface/diffusers.git#egg=diffusers
