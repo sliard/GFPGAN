@@ -23,6 +23,7 @@ parser.add_argument(
 opt = parser.parse_args()
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Device :  {device}")
 model_id = "CompVis/ldm-super-resolution-4x-openimages"
 
 # load model and scheduler
