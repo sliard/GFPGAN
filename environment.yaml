@@ -24,4 +24,5 @@ dependencies:
       - torchmetrics==0.6.0
       - tqdm
       - yapf
+      - realesrgan
       - -e git+https://github.com/huggingface/diffusers.git#egg=diffusers
