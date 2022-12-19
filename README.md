@@ -84,8 +84,8 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
     git clone https://github.com/TencentARC/GFPGAN.git
     cd GFPGAN
     ```
-
-1. Install dependent packages
+   
+2. Install dependent packages
 
     ```bash
     # Install basicsr - https://github.com/xinntao/BasicSR
@@ -103,6 +103,13 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
     # you also need to install the realesrgan package
     pip install realesrgan
     ```
+
+or 
+
+   ```bash
+   conda env create -f environment.yaml
+   conda activate gfp
+   ```
 
 ## :zap: Quick Inference
 
