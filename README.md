@@ -104,12 +104,12 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
     pip install realesrgan
     ```
 
-or 
+    or 
 
-   ```bash
-   conda env create -f environment.yaml
-   conda activate gfp
-   ```
+    ```bash
+    conda env create -f environment.yaml
+    conda activate gfp
+    ```
 
 ## :zap: Quick Inference
 
